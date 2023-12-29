@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full bg-gray-50;
+}   
+
+body {
+  @apply h-full;
+}
+
+.edit-button {
+  background-color: #269bff;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.edit-button:hover{
+    background-color: #0089ff;
+}
+.delete-button {
+  background-color: #f1635f;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.delete-button:hover{
+    background-color: #ee413c;
+}
+
+.add-button{
+  background-color: #009c8a;
+  transition: all 0.3s;
+}
+.add-button:hover{
+  background-color: #007668;
+}
